@@ -13,7 +13,7 @@ RUN \
   wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.90.13.tar.gz && \
   tar xvzf elasticsearch-0.90.13.tar.gz && \
   rm -f elasticsearch-0.90.13.tar.gz && \
-  mv /tmp/elasticsearch-0.90.13 /elasticsearch
+  mv /tmp/elasticsearch-0.90.13 /elasticsearch && \
   mkdir /mountedvol
 
 # Define working directory.
