@@ -17,8 +17,7 @@ RUN \
   mkdir /mountedvol
 
 # Define working directory.
-WORKDIR /mountedvol
-
+WORKDIR /elasticsearch
 # Define default command.
 CMD ["/elasticsearch/bin/elasticsearch"]
 
