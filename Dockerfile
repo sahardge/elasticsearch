@@ -10,10 +10,10 @@ FROM dockerfile/java
 # Install ElasticSearch.
 RUN \
   cd /tmp && \
-  wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.90.3.tar.gz && \
-  tar xvzf elasticsearch-0.90.3.tar.gz && \
-  rm -f elasticsearch-0.90.3.tar.gz && \
-  mv /tmp/elasticsearch-0.90.3 /elasticsearch && \
+  wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.90.5.tar.gz && \
+  tar xvzf elasticsearch-0.90.5.tar.gz && \
+  rm -f elasticsearch-0.90.5.tar.gz && \
+  mv /tmp/elasticsearch-0.90.5 /elasticsearch && \
   mkdir /mountedvol
 
 # Define working directory.
