@@ -19,7 +19,7 @@ RUN \
 # Define working directory.
 WORKDIR /elasticsearch
 # Define default command.
-CMD ["/elasticsearch/bin/elasticsearch"]
+CMD ["/elasticsearch/bin/elasticsearch -f"]
 
 # Expose ports.
 #   - 9200: HTTP
